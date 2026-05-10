@@ -14,9 +14,8 @@ class Solution {
       print("revertedNumber: $revertedNumber, x: $x");
     }
 
-
-    print("We have x afer while: $x");
-    print("We have revertedNumber  afer while: $revertedNumber");
+    print("We have x after while: $x");
+    print("We have revertedNumber  after while: $revertedNumber");
 
     return x == revertedNumber || x == revertedNumber ~/ 10;
   }
@@ -32,7 +31,6 @@ void main() {
     final check1 = solution.isPalindrome(num);
     final check2 = solution.isPalindrome(numNegative);
     final check3 = solution.isPalindrome(nonPalindrome);
-
 
     expect(check1, true);
     expect(check2, false);
