@@ -50,7 +50,7 @@ class Solution {
 
 void main() {
   group(
-    "Longest SubString Without Repeating Chars [Sliding Window Technique]",
+    "Longest SubString Without Repeating Chars [Sliding Window Technique {FIXED}]",
     () {
       final solution = Solution();
 
